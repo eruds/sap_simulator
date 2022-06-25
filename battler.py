@@ -1,21 +1,9 @@
-from enum import Enum, auto
 # from colorama import Fore
 from clint.textui import colored, puts
 
+from states import *
 from player import Player
 from pet import *
-
-
-class BattleResult(Enum):
-    WIN = auto()
-    DRAW = auto()
-    LOSE = auto()
-
-
-class BattleStatus(Enum):
-    STARTED = auto()
-    ONGOING = auto()
-    ENDED = auto()
 
 # Pets is copied into the battle stack
 
@@ -30,7 +18,8 @@ class BattleStack():
     def __len__(self): return len(self.stack)
     # ? This looks stupid
     def __str__(self): return str(list(map(lambda pet: str(pet), self.stack)))
-    def pop(self): return self.stack.pop()
+    def __getitem__(self, i): return self.stack[i]
+    def pop(self): return self.stack.pop(0)
 
 
 class Battler():
@@ -41,31 +30,54 @@ class Battler():
     def battle(players: list[Player]):
         def getResult(player: BattleStack):
             return BattleResult.WIN if len(player) > 0 else BattleResult.LOSE
+
+        def checkLose(player: BattleStack):
+            return len(player) == 0
         # type (Player) -> None
         playerPets: list[BattleStack] = list(
             map(lambda player: BattleStack(player.pets), players))
         player1 = playerPets[0]
         player2 = playerPets[1]
-        status = BattleStatus.STARTED
+        print("Start of Battle")
 
-        # ? This is stupid
-        pet1 = EmptyPet()
-        pet2 = EmptyPet()
-        # Cant end game if one of the player pet isnt dead yet
-        while len(playerPets[0]) > 0 and len(playerPets[1]) > 0:
+        # Tracking the concurrent events in a battle
+        # How to keep track the different pets that got damaged?
+        event_list = []
+        event_list.append(BattleState.BATTLESTART)
+
+        while not checkLose(player1) and not checkLose(player2):
+            # Define phases throughout the battle to determine
+            pet1 = player1[0]
+            pet2 = player2[0]
             print(player1)
             print(player2)
-            # Take out the most front pet as the battler
-            pet1 = player1.pop() if pet1.state == PetState.Faint or status == BattleStatus.STARTED else pet1
-            pet2 = player2.pop() if pet2.state == PetState.Faint or status == BattleStatus.STARTED else pet2
+
             # Activate pet effects
-            # Shows the Pet info before taking damage
-            print(colored.green(f"Before {pet1} vs {pet2}"))
-            # Battle Initiated
+            # for pet in player1 :
+            #     if pet.trigger() is in event_list :
+            #         pet.activateEffect()
+
+            # Start of Battle
+            print(colored.green(f"Before : {pet1} vs {pet2}"))
+            # Check pet effects
+
+            # Damage accumulation
             pet1.takeDamage(pet2.attack)
             pet2.takeDamage(pet1.attack)
-            # Shows the Pet info after taking damage
-            print(colored.blue(f"After {pet1} vs {pet2}"))
-            status = BattleStatus.ONGOING
-        status = BattleStatus.ENDED
+            # Check pet effects
+
+            # End Of Battle
+            print(colored.blue(f"After : {pet1} vs {pet2}"))
+
+            # Check if pet Faints
+            # Check pet effects
+            if pet1.isFaint():
+                player1.pop()
+            if pet2.isFaint():
+                player2.pop()
+
+            # Clear the eventlists
+            event_list = []
+
+        event_list.append(BattleState.BATTLEEND)
         return (getResult(player1), getResult(player2))

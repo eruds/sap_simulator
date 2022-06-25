@@ -1,0 +1,432 @@
+[
+  {
+    "Ability": "Give a pet +1/+1.",
+    "Id": "0",
+    "Name": "Apple",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +2 Attack.",
+    "Id": "2",
+    "Name": "Bacon",
+    "Tier": 1,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +3/+6.",
+    "Id": "103",
+    "Name": "Best Milk",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Ability": "Give a pet +2/+4.",
+    "Id": "102",
+    "Name": "Better Milk",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Ability": "Give a pet +2/+2 until end of battle.",
+    "Id": "27",
+    "Name": "Cookie",
+    "Tier": 1,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Honey.",
+    "Id": "40",
+    "Name": "Honey",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +1/+2.",
+    "Id": "49",
+    "Name": "Milk",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Ability": "Give a pet +2 Health.",
+    "Id": "64",
+    "Name": "Peach",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Strawberry.",
+    "Id": "81",
+    "Name": "Strawberry",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet -1/+3.",
+    "Id": "11",
+    "Name": "Broccoli",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Croissant.",
+    "Id": "29",
+    "Name": "Croissant",
+    "Tier": 2,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +3/+3 until end of battle.",
+    "Id": "50",
+    "Name": "Cupcake",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +3/-1.",
+    "Id": "100",
+    "Name": "Fried Shrimp",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Meat Bone.",
+    "Id": "9",
+    "Name": "Meat Bone",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Make a friendly pet faint.",
+    "Id": "92",
+    "Name": "Sleeping Pill",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Cucumber.",
+    "Id": "97",
+    "Name": "Cucumber",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Garlic.",
+    "Id": "38",
+    "Name": "Garlic",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Swap Attack and Health of a pet.",
+    "Id": "48",
+    "Name": "Lollipop",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Pineapple.",
+    "Id": "61",
+    "Name": "Pineapple",
+    "Tier": 3,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give 2 random pets +1/+1.",
+    "Id": "73",
+    "Name": "Salad Bowl",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give all current and future shop pets +2/+1.",
+    "Id": "16",
+    "Name": "Canned Food",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Cheese.",
+    "Id": "19",
+    "Name": "Cheese",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Fortune Cookie.",
+    "Id": "35",
+    "Name": "Fortune Cookie",
+    "Tier": 4,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Grapes.",
+    "Id": "39",
+    "Name": "Grapes",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +2/+2.",
+    "Id": "58",
+    "Name": "Pear",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Carrot.",
+    "Id": "17",
+    "Name": "Carrot",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Chili.",
+    "Id": "22",
+    "Name": "Chili",
+    "Tier": 5,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +1 Experience.",
+    "Id": "23",
+    "Name": "Chocolate",
+    "Tier": 5,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Lemon.",
+    "Id": "47",
+    "Name": "Lemon",
+    "Tier": 5,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Pepper.",
+    "Id": "59",
+    "Name": "Pepper",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give 3 random pets +2 Health.",
+    "Id": "80",
+    "Name": "Stew",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give 3 random pets +1/+1.",
+    "Id": "82",
+    "Name": "Sushi",
+    "Tier": 5,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give 3 random pets +2 Attack.",
+    "Id": "84",
+    "Name": "Taco",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet +3/+3.",
+    "Id": "21",
+    "Name": "Chicken Leg",
+    "Tier": 6,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give 2 random pets +4 Attack.",
+    "Id": "41",
+    "Name": "Hot Dog",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Melon.",
+    "Id": "96",
+    "Name": "Melon",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Mushroom.",
+    "Id": "51",
+    "Name": "Mushroom",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give 2 random pets +4 Health.",
+    "Id": "54",
+    "Name": "Orange",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give 2 random pets +2/+2.",
+    "Id": "63",
+    "Name": "Pizza",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Popcorn.",
+    "Id": "65",
+    "Name": "Popcorns",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give all pets +1 Attack.",
+    "Id": "77",
+    "Name": "Soft Ice",
+    "Tier": 6,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Ability": "Give a pet Steak.",
+    "Id": "79",
+    "Name": "Steak",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  }
+]

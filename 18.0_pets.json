@@ -1,0 +1,4416 @@
+[
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Give a random friend +2/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Give a random friend +4/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Give a random friend +6/+3."
+      }
+    ],
+    "Id": "0",
+    "Name": "Ant",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Give 2 random friends +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Give 2 random friends +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Give 2 random friends +3 Health."
+      }
+    ],
+    "Id": "3",
+    "Name": "Beaver",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "4",
+    "Name": "Bee",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Eats shop food: Give left-most shop pet +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Eats shop food: Give left-most shop pet +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Eats shop food: Give left-most shop pet +3 Health."
+      }
+    ],
+    "Id": "88",
+    "Name": "Beetle",
+    "Tier": 1,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give a random friend +1 Attack."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give a random friend +2 Attack."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give a random friend +3 Attack."
+      }
+    ],
+    "Id": "89",
+    "Name": "Bluebird",
+    "Tier": 1,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "85",
+    "Name": "Bus",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Transformed: Copy 33% of Attack and Health from the strongest friend."
+      },
+      {
+        "Level": 2,
+        "About": "Transformed: Copy 66% of Attack and Health from the strongest friend."
+      },
+      {
+        "Level": 3,
+        "About": "Transformed: Copy 100% of Attack and Health from the strongest friend."
+      }
+    ],
+    "Id": "9",
+    "Name": "Butterfly",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "13",
+    "Name": "Chick",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Summon 1 Loyal Chinchilla(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Summon 2 Loyal Chinchilla(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Summon 3 Loyal Chinchilla(s)."
+      }
+    ],
+    "Id": "161",
+    "Name": "Chinchilla",
+    "Tier": 1,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Set Attack to 2."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Set Attack to 4."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Set Attack to 6."
+      }
+    ],
+    "Id": "18",
+    "Name": "Cockroach",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon a 1/1 Cricket."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon a 2/2 Cricket."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon a 3/3 Cricket."
+      }
+    ],
+    "Id": "17",
+    "Name": "Cricket",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "58",
+    "Name": "Dirty Rat",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Give shop pets +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Give shop pets +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Give shop pets +3 Health."
+      }
+    ],
+    "Id": "26",
+    "Name": "Duck",
+    "Tier": 1,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Give left-most shop pet +2 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Give left-most shop pet +4 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Give left-most shop pet +6 Health."
+      }
+    ],
+    "Id": "113",
+    "Name": "Duckling",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Level-up: Give all friends +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Level-up: Give all friends +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "No effect."
+      }
+    ],
+    "Id": "32",
+    "Name": "Fish",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Gain +1/+1 per friend with a <b>Faint</b> ability."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Gain +2/+2 per friend with a <b>Faint</b> ability."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Gain +3/+3 per friend with a <b>Faint</b> ability."
+      }
+    ],
+    "Id": "198",
+    "Name": "Frilled Dragon",
+    "Tier": 1,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Swap stats of the two adjacent friends."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Swap stats of the two adjacent friends."
+      },
+      {
+        "Level": 3,
+        "About": "End of turn: Swap stats of the two adjacent friends."
+      }
+    ],
+    "Id": "139",
+    "Name": "Frog",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "179",
+    "Name": "Guinea Piglet",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend summoned: Give it +1 Attack until end of battle."
+      },
+      {
+        "Level": 2,
+        "About": "Friend summoned: Give it +2 Attack until end of battle."
+      },
+      {
+        "Level": 3,
+        "About": "Friend summoned: Give it +3 Attack until end of battle."
+      }
+    ],
+    "Id": "39",
+    "Name": "Horse",
+    "Tier": 1,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Give +2/+1 to a random Strawberry friend."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Give +4/+2 to a random Strawberry friend."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Give +6/+3 to a random Strawberry friend."
+      }
+    ],
+    "Id": "138",
+    "Name": "Hummingbird",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Enemy summoned or pushed: Deal 1 damage to it."
+      },
+      {
+        "Level": 2,
+        "About": "Enemy summoned or pushed: Deal 2 damage to it."
+      },
+      {
+        "Level": 3,
+        "About": "Enemy summoned or pushed: Deal 3 damage to it."
+      }
+    ],
+    "Id": "147",
+    "Name": "Iguana",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Give a random Strawberry friend +1/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Give a random Strawberry friend +2/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Give a random Strawberry friend +3/+6."
+      }
+    ],
+    "Id": "131",
+    "Name": "Kiwi",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy shop food: Gain +1/+1 until end of battle."
+      },
+      {
+        "Level": 2,
+        "About": "Buy shop food: Gain +2/+2 until end of battle."
+      },
+      {
+        "Level": 3,
+        "About": "Buy shop food: Gain +3/+3 until end of battle."
+      }
+    ],
+    "Id": "92",
+    "Name": "Ladybug",
+    "Tier": 1,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "183",
+    "Name": "Loyal Chinchilla",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Roll shop."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Roll shop."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Roll shop."
+      }
+    ],
+    "Id": "204",
+    "Name": "Marmoset",
+    "Tier": 1,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 1 damage to 1 random enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 1 damage to 2 random enemies."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 1 damage to 3 random enemies."
+      }
+    ],
+    "Id": "47",
+    "Name": "Mosquito",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Give front-most friend +3 Attack."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Give front-most friend +6 Attack."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Give front-most friend +9 Attack."
+      }
+    ],
+    "Id": "141",
+    "Name": "Moth",
+    "Tier": 1,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Replace food shop with 1 free apple that gives +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Replace food shop with 2 free apples that give +1/+1."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Replace food shop with 3 free apples that give +1/+1."
+      }
+    ],
+    "Id": "48",
+    "Name": "Mouse",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy: Give 1 random friend +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Buy: Give 2 random friends +1/+1."
+      },
+      {
+        "Level": 3,
+        "About": "Buy: Give 3 random friends +1/+1."
+      }
+    ],
+    "Id": "51",
+    "Name": "Otter",
+    "Tier": 1,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Gain an extra 1 gold."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Gain an extra 2 gold."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Gain an extra 3 gold."
+      }
+    ],
+    "Id": "59",
+    "Name": "Pig",
+    "Tier": 1,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Upgrade shop tier: Give the two pets behind +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Upgrade shop tier: Give the two pets behind +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Upgrade shop tier: Give the two pets behind +3 Health."
+      }
+    ],
+    "Id": "149",
+    "Name": "Pillbug",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "62",
+    "Name": "Ram",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Push the last enemy 1 space(s) forward."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Push the last enemy 2 space(s) forward."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Push the last enemy 3 space(s) forward."
+      }
+    ],
+    "Id": "152",
+    "Name": "Seahorse",
+    "Tier": 1,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Has no special ability. Is kind of lame combat-wise. But he truly believes in you!"
+      },
+      {
+        "Level": 2,
+        "About": "Has no special ability. Is kind of lame combat-wise. But he truly believes in you!"
+      },
+      {
+        "Level": 3,
+        "About": "Has no special ability. Is kind of lame combat-wise. But he truly believes in you!"
+      }
+    ],
+    "Id": "71",
+    "Name": "Sloth",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "86",
+    "Name": "Zombie Cricket",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 4,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "No ability."
+      },
+      {
+        "Level": 2,
+        "About": "No ability."
+      },
+      {
+        "Level": 3,
+        "About": "No ability."
+      }
+    ],
+    "Id": "31",
+    "Name": "Zombie Fly",
+    "Tier": 1,
+    "Packs": [],
+    "Rollable": false
+  },
+  {
+    "Attack": 1,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 2 damage for each strawberry friend to a random enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 4 damage for each strawberry friend to a random enemy."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 6 damage for each strawberry friend to a random enemy."
+      }
+    ],
+    "Id": "132",
+    "Name": "Atlantic Puffin",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Make 1 enemy Weak."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Make 2 enemies Weak."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Make 3 enemies Weak."
+      }
+    ],
+    "Id": "87",
+    "Name": "Bat",
+    "Tier": 2,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Copy 50% Health from the most healthy friend."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Copy 100% Health from the most healthy friend."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Copy 150% Health from the most healthy friend."
+      }
+    ],
+    "Id": "16",
+    "Name": "Crab",
+    "Tier": 2,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Give 50% of Dodo's Attack to friend ahead."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Give 100% of Dodo's Attack to friend ahead."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Give 150% of Dodo's Attack to friend ahead."
+      }
+    ],
+    "Id": "21",
+    "Name": "Dodo",
+    "Tier": 2,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Give 2 Strawberry friends +2/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Give 2 Strawberry friends +4/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Give 2 Strawberry friends +6/+3."
+      }
+    ],
+    "Id": "24",
+    "Name": "Dove",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Give the 2 left-most shop pets +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Give the 2 left-most shop pets +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Give the 2 left-most shop pets +3/+3."
+      }
+    ],
+    "Id": "104",
+    "Name": "Dromedary",
+    "Tier": 2,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before attack: Deal 1 damage to the friend behind. Repeat 1 time(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Before attack: Deal 1 damage to the friend behind. Repeat 2 time(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Before attack: Deal 1 damage to the friend behind. Repeat 3 time(s)."
+      }
+    ],
+    "Id": "28",
+    "Name": "Elephant",
+    "Tier": 2,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before faint: Give the two friends behind +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Before faint: Give the two friends behind +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Before faint: Give the two friends behind +3/+3."
+      }
+    ],
+    "Id": "29",
+    "Name": "Flamingo",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy: Give a random friend with a Hurt ability +2 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Buy: Give a random friend with a Hurt ability +4 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Buy: Give a random friend with a Hurt ability +6 Health."
+      }
+    ],
+    "Id": "137",
+    "Name": "Frigatebird",
+    "Tier": 2,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Discount the 2 left-most shop pets by 1 gold."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Discount the 2 left-most shop pets by 2 gold."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Discount the 2 left-most shop pets by 3 gold."
+      }
+    ],
+    "Id": "121",
+    "Name": "Gold Fish",
+    "Tier": 2,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy: Summon a 1/1 Guinea Pig."
+      },
+      {
+        "Level": 2,
+        "About": "Buy: Summon a 2/2 Guinea Pig."
+      },
+      {
+        "Level": 3,
+        "About": "Buy: Summon a 3/3 Guinea Pig."
+      }
+    ],
+    "Id": "109",
+    "Name": "Guinea Pig",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Deal 2 damage to all."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Deal 4 damage to all."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Deal 6 damage to all."
+      }
+    ],
+    "Id": "37",
+    "Name": "Hedgehog",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Any level-up: Gain +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Any level-up: Gain +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Any level-up: Gain +3/+3."
+      }
+    ],
+    "Id": "122",
+    "Name": "Jellyfish",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend hurt: Give it +1/+1. Has 1 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Friend hurt: Give it +2/+2. Has 1 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Friend hurt: Give it +3/+3. Has 1 trigger(s)."
+      }
+    ],
+    "Id": "112",
+    "Name": "Koala",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Give 50% of Panda's Attack and Health to friend ahead, then faint."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Give 100% of Panda's Attack and Health to friend ahead, then faint."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Give 150% of Panda's Attack and Health to friend ahead, then faint."
+      }
+    ],
+    "Id": "107",
+    "Name": "Panda",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt: Gain 4 Attack."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt: Gain 8 Attack."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt: Gain 12 Attack."
+      }
+    ],
+    "Id": "54",
+    "Name": "Peacock",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Give friend ahead +1 Experience."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Give friend ahead +2 Experience."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Give friend ahead +3 Experience."
+      }
+    ],
+    "Id": "145",
+    "Name": "Pug",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before attack: Steal held food of enemy ahead. Has 1 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Before attack: Steal held food of enemy ahead. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Before attack: Steal held food of enemy ahead. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "158",
+    "Name": "Raccoon",
+    "Tier": 2,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon one 1/1 Dirty Rat up front for the opponent."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon two 1/1 Dirty Rats up front for the opponent."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon three 1/1 Dirty Rats up front for the opponent."
+      }
+    ],
+    "Id": "57",
+    "Name": "Rat",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy friend: If it has a <b>Start of battle</b> ability, Gain +2 Attack."
+      },
+      {
+        "Level": 2,
+        "About": "Buy friend: If it has a <b>Start of battle</b> ability, Gain +4 Attack."
+      },
+      {
+        "Level": 3,
+        "About": "Buy friend: If it has a <b>Start of battle</b> ability, Gain +6 Attack."
+      }
+    ],
+    "Id": "164",
+    "Name": "Salamander",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend sold: Give a random friend +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Friend sold: Give a random friend +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Friend sold: Give a random friend +3 Health."
+      }
+    ],
+    "Id": "67",
+    "Name": "Shrimp",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon a level 1 tier 3 pet as a 2/2."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon a level 2 tier 3 pet as a 2/2."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon a level 3 tier 3 pet as a 2/2."
+      }
+    ],
+    "Id": "74",
+    "Name": "Spider",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon a level 1 pet from your previous shop tier."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon a level 2 pet from your previous shop tier."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon a level 3 pet from your previous shop tier."
+      }
+    ],
+    "Id": "136",
+    "Name": "Stork",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Gain 1 gold."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Gain 2 gold."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Gain 3 gold."
+      }
+    ],
+    "Id": "76",
+    "Name": "Swan",
+    "Tier": 2,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Eats shop food: Give friends +1 Attack until end of battle."
+      },
+      {
+        "Level": 2,
+        "About": "Eats shop food: Give friends +2 Attack until end of battle."
+      },
+      {
+        "Level": 3,
+        "About": "Eats shop food: Give friends +3 Attack until end of battle."
+      }
+    ],
+    "Id": "99",
+    "Name": "Tabby Cat",
+    "Tier": 2,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before faint: Give Toucan's held Food to friend behind."
+      },
+      {
+        "Level": 2,
+        "About": "Before faint: Give Toucan's held Food to 2 friends behind."
+      },
+      {
+        "Level": 3,
+        "About": "Before faint: Give Toucan's held Food to 3 friends behind."
+      }
+    ],
+    "Id": "151",
+    "Name": "Toucan",
+    "Tier": 2,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Copy <b>Faint</b> Ability as Lvl. 1 from highest tier enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Copy <b>Faint</b> Ability as Lvl. 2 from highest tier enemy."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Copy <b>Faint</b> Ability as Lvl. 3 from highest tier enemy."
+      }
+    ],
+    "Id": "207",
+    "Name": "Wombat",
+    "Tier": 2,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Deal 1 damage to itself and gain 1 Attack."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Deal 1 damage to itself and gain 2 Attack."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Deal 1 damage to itself and gain 3 Attack."
+      }
+    ],
+    "Id": "163",
+    "Name": "Yak",
+    "Tier": 2,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Enemy summoned: Gain +2/+3."
+      },
+      {
+        "Level": 2,
+        "About": "Enemy summoned: Gain +4/+6."
+      },
+      {
+        "Level": 3,
+        "About": "Enemy summoned: Gain +6/+9."
+      }
+    ],
+    "Id": "193",
+    "Name": "Aardvark",
+    "Tier": 3,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before faint: Deal 50% Attack damage to adjacent pets."
+      },
+      {
+        "Level": 2,
+        "About": "Before faint: Deal 100% Attack damage to adjacent pets."
+      },
+      {
+        "Level": 3,
+        "About": "Before faint: Deal 150% Attack damage to adjacent pets."
+      }
+    ],
+    "Id": "2",
+    "Name": "Badger",
+    "Tier": 3,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before faint: Give Honey to all pets that are 1 space(s) away."
+      },
+      {
+        "Level": 2,
+        "About": "Before faint: Give Honey to all pets that are 2 space(s) away."
+      },
+      {
+        "Level": 3,
+        "About": "Before faint: Give Honey to all pets that are 3 space(s) away."
+      }
+    ],
+    "Id": "140",
+    "Name": "Bear",
+    "Tier": 3,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before faint: Give friend behind +1/+1 and +1 Experience."
+      },
+      {
+        "Level": 2,
+        "About": "Before faint: Give friend behind +2/+2 and +2 Experience."
+      },
+      {
+        "Level": 3,
+        "About": "Before faint: Give friend behind +3/+3 and +3 Experience."
+      }
+    ],
+    "Id": "150",
+    "Name": "Blobfish",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt: Deal 2 damage to a random enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt: Deal 4 damage to a random enemy."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt: Deal 6 damage to a random enemy."
+      }
+    ],
+    "Id": "7",
+    "Name": "Blowfish",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt: Give friend behind +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt: Give friend behind +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt: Give friend behind +6/+6."
+      }
+    ],
+    "Id": "10",
+    "Name": "Camel",
+    "Tier": 3,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Roll: Give unfrozen shop pets +2/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Roll: Give unfrozen shop pets +4/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Roll: Give unfrozen shop pets +6/+3."
+      }
+    ],
+    "Id": "154",
+    "Name": "Capybara",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Gain +1/+1 for each friendly Strawberry pet up to 1."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Gain +1/+1 for each friendly Strawberry pet up to 2."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Gain +1/+1 for each friendly Strawberry pet up to 3."
+      }
+    ],
+    "Id": "133",
+    "Name": "Cassowary",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Gain 1 Experience."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Gain 1 Experience."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Transform into a Butterfly, then copy stats of the strongest friend."
+      }
+    ],
+    "Id": "12",
+    "Name": "Caterpillar",
+    "Tier": 3,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friendly pet level-up: Give it +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Friendly pet level-up: Give it +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Friendly pet level-up: Give it +6/+6."
+      }
+    ],
+    "Id": "117",
+    "Name": "Clownfish",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend summoned: Gain +1 Attack or +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Friend summoned: Gain +2 Attack or +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Friend summoned: Gain +3 Attack or +3 Health."
+      }
+    ],
+    "Id": "22",
+    "Name": "Dog",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Give 50% of Emperor Tamarin's Attack and Health to the leftmost shop pet."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Give 100% of Emperor Tamarin's Attack and Health to the leftmost shop pet."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Give 150% of Emperor Tamarin's Attack and Health to the leftmost shop pet."
+      }
+    ],
+    "Id": "197",
+    "Name": "Emperor Tamarin",
+    "Tier": 3,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give friend ahead +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give 2 friends ahead +1/+1."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give 3 friends ahead +1/+1."
+      }
+    ],
+    "Id": "33",
+    "Name": "Giraffe",
+    "Tier": 3,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give +5/+5 to friend ahead until end of battle."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give +2/+2 to friend ahead."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Give +1 Experience to friend ahead."
+      }
+    ],
+    "Id": "91",
+    "Name": "Hatching Chick",
+    "Tier": 3,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend ahead attacks: Gain +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Friend ahead attacks: Gain +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Friend ahead attacks: Gain +6/+6."
+      }
+    ],
+    "Id": "40",
+    "Name": "Kangaroo",
+    "Tier": 3,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Deal 1 damage to the pet ahead and gain +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Deal 1 damage to the pet ahead and gain +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Deal 1 damage to the pet ahead and gain +3 Health."
+      }
+    ],
+    "Id": "165",
+    "Name": "Leech",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Roll: Gain +1/+1 until end of battle. Has 5 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Roll: Gain +2/+2 until end of battle. Has 5 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Roll: Gain +3/+3 until end of battle. Has 5 trigger(s)."
+      }
+    ],
+    "Id": "130",
+    "Name": "Okapi",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Give a random friend +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Give a random friend +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Give a random friend +6/+6."
+      }
+    ],
+    "Id": "95",
+    "Name": "Owl",
+    "Tier": 3,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend ahead faints: Gain Melon and +1 Attack."
+      },
+      {
+        "Level": 2,
+        "About": "Friend ahead faints: Gain Melon and +2 Attack."
+      },
+      {
+        "Level": 3,
+        "About": "Friend ahead faints: Gain Melon and +3 Attack."
+      }
+    ],
+    "Id": "52",
+    "Name": "Ox",
+    "Tier": 3,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: If you have 2 or more gold, gain +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: If you have 2 or more gold, gain +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: If you have 2 or more gold, gain +6/+6."
+      }
+    ],
+    "Id": "97",
+    "Name": "Puppy",
+    "Tier": 3,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Pet eats shop food: Give it +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Pet eats shop food: Give it +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Pet eats shop food: Give it +3 Health."
+      }
+    ],
+    "Id": "60",
+    "Name": "Rabbit",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend summoned: Copy Seagull's held Food to it. Has 1 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Friend summoned: Copy Seagull's held Food to it. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Friend summoned: Copy Seagull's held Food to it. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "128",
+    "Name": "Seagull",
+    "Tier": 3,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon two 2/2 Rams."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon two 4/4 Rams."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon two 6/6 Rams."
+      }
+    ],
+    "Id": "68",
+    "Name": "Sheep",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy: If you lost last battle, give all friends +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Buy: If you lost last battle, give all friends +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Buy: If you lost last battle, give all friends +3/+3."
+      }
+    ],
+    "Id": "72",
+    "Name": "Snail",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend sold: If it had a <b>Sell</b> ability, give +1/+1 to a random friend."
+      },
+      {
+        "Level": 2,
+        "About": "Friend sold: If it had a <b>Sell</b> ability, give +2/+2 to a random friend."
+      },
+      {
+        "Level": 3,
+        "About": "Friend sold: If it had a <b>Sell</b> ability, give +3/+3 to a random friend."
+      }
+    ],
+    "Id": "153",
+    "Name": "Starfish",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Enemy hurt: Make it Weak. Has 2 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Enemy hurt: Make it Weak. Has 4 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Enemy hurt: Make it Weak. Has 6 trigger(s)."
+      }
+    ],
+    "Id": "162",
+    "Name": "Toad",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give adjacent friends +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give adjacent friends +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give adjacent friends +3 Health."
+      }
+    ],
+    "Id": "100",
+    "Name": "Tropical Fish",
+    "Tier": 3,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before faint: Give friend behind Melon."
+      },
+      {
+        "Level": 2,
+        "About": "Before faint: Give 2 friends behind Melon."
+      },
+      {
+        "Level": 3,
+        "About": "Before faint: Give 3 friends behind Melon."
+      }
+    ],
+    "Id": "80",
+    "Name": "Turtle",
+    "Tier": 3,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Upgrade shop tier: Gain 50% more Attack."
+      },
+      {
+        "Level": 2,
+        "About": "Upgrade shop tier: Gain 100% more Attack."
+      },
+      {
+        "Level": 3,
+        "About": "Upgrade shop tier: Gain 150% more Attack."
+      }
+    ],
+    "Id": "160",
+    "Name": "Wasp",
+    "Tier": 3,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 2 damage to the two pets ahead. Repeat 1 time(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 2 damage to the two pets ahead. Repeat 2 time(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 2 damage to the two pets ahead. Repeat 3 time(s)."
+      }
+    ],
+    "Id": "156",
+    "Name": "Woodpecker",
+    "Tier": 3,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon two Lvl. 1 Ants."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon two Lvl. 2 Ants."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon two Lvl. 3 Ants."
+      }
+    ],
+    "Id": "105",
+    "Name": "Anteater",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt & Faint: Give friends +1 Health."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt & Faint: Give friends +2 Health."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt & Faint: Give friends +3 Health."
+      }
+    ],
+    "Id": "166",
+    "Name": "Armadillo",
+    "Tier": 4,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Gain +2/+2 if there is at least one level 3 friend."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Gain +4/+4 if there is at least one level 3 friend."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Gain +6/+6 if there is at least one level 3 friend."
+      }
+    ],
+    "Id": "5",
+    "Name": "Bison",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy friend: Gain +1/+1. Has 3 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Buy friend: Gain +2/+2. Has 3 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Buy friend: Gain +3/+3. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "8",
+    "Name": "Buffalo",
+    "Tier": 4,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Replace food shop with 1 chocolate that gives +1 Experience."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Replace food shop with 2 chocolate that gives +1 Experience."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Replace food shop with 3 chocolate that gives +1 Experience."
+      }
+    ],
+    "Id": "195",
+    "Name": "Crow",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon a 5/5 Bus with Splash Attack."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon a 10/10 Bus with Splash Attack."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon a 15/15 Bus with Splash Attack."
+      }
+    ],
+    "Id": "20",
+    "Name": "Deer",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 5 damage to the lowest health enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 10 damage to the lowest health enemy."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 15 damage to the lowest health enemy."
+      }
+    ],
+    "Id": "23",
+    "Name": "Dolphin",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend faints: Push last enemy to the front. Has 1 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Friend faints: Push last enemy to the front. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Friend faints: Push last enemy to the front. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "111",
+    "Name": "Donkey",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give +1/+1 to one pet of each level."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give +2/+2 to one pet of each level."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give +3/+3 to one pet of each level."
+      }
+    ],
+    "Id": "196",
+    "Name": "Dragonfly",
+    "Tier": 4,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Gain 50% bonus Health."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Gain 100% bonus Health."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Gain 150% bonus Health."
+      }
+    ],
+    "Id": "120",
+    "Name": "Eel",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 7 damage to the opposite enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 14 damage to the opposite enemy."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 21 damage to the opposite enemy."
+      }
+    ],
+    "Id": "127",
+    "Name": "Hawk",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 7,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Knock out: Gain +3/+3."
+      },
+      {
+        "Level": 2,
+        "About": "Knock out: Gain +6/+6."
+      },
+      {
+        "Level": 3,
+        "About": "Knock out: Gain +9/+9."
+      }
+    ],
+    "Id": "38",
+    "Name": "Hippo",
+    "Tier": 4,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Eats apple: Give other pets +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Eats apple: Give other pets +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Eats apple: Give other pets +3/+3."
+      }
+    ],
+    "Id": "199",
+    "Name": "Jerboa",
+    "Tier": 4,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: If you have 4 or less pets, gain +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: If you have 4 or less pets, gain +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: If you have 4 or less pets, gain +6/+6."
+      }
+    ],
+    "Id": "44",
+    "Name": "Llama",
+    "Tier": 4,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend summoned outside battle: Give it +2/+3."
+      },
+      {
+        "Level": 2,
+        "About": "Friend summoned outside battle: Give it +4/+6."
+      },
+      {
+        "Level": 3,
+        "About": "Friend summoned outside battle: Give it +6/+9."
+      }
+    ],
+    "Id": "93",
+    "Name": "Lobster",
+    "Tier": 4,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal damage to 1 random enemy equal to the sum of all friendly levels."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal damage to 2 random enemies equal to the sum of all friendly levels."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal damage to 3 random enemies equal to the sum of all friendly levels."
+      }
+    ],
+    "Id": "200",
+    "Name": "Lynx",
+    "Tier": 4,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Make all pets Weak."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Make all pets Weak."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Make all pets Weak."
+      }
+    ],
+    "Id": "94",
+    "Name": "Microbe",
+    "Tier": 4,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy: Give adjacent friends +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Buy: Give adjacent friends +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Buy: Give adjacent friends +3/+3."
+      }
+    ],
+    "Id": "168",
+    "Name": "Mole",
+    "Tier": 4,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give the lowest Health friendly pet +4 Health."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give the lowest Health friendly pet +8 Health."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give the lowest Health friendly pet +12 Health."
+      }
+    ],
+    "Id": "157",
+    "Name": "Orangutan",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End Turn: Copy ability from pet ahead as level 1 until end of battle."
+      },
+      {
+        "Level": 2,
+        "About": "End Turn: Copy ability from pet ahead as level 2 until end of battle."
+      },
+      {
+        "Level": 3,
+        "About": "End Turn: Copy ability from pet ahead as level 3 until end of battle."
+      }
+    ],
+    "Id": "53",
+    "Name": "Parrot",
+    "Tier": 4,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn & Start of battle: Give a random Strawberry friend +2/+1."
+      },
+      {
+        "Level": 2,
+        "About": "End turn & Start of battle: Give a random Strawberry friend +4/+2."
+      },
+      {
+        "Level": 3,
+        "About": "End turn & Start of battle: Give a random Strawberry friend +6/+3."
+      }
+    ],
+    "Id": "129",
+    "Name": "Pelican",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give three level 2 and 3 friends +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give three level 2 and 3 friends +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give three level 2 and 3 friends +3/+3."
+      }
+    ],
+    "Id": "56",
+    "Name": "Penguin",
+    "Tier": 4,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Sell: Summon a Lvl. 1 Duck and Beaver."
+      },
+      {
+        "Level": 2,
+        "About": "Sell: Summon a Lvl. 2 Duck and Beaver."
+      },
+      {
+        "Level": 3,
+        "About": "Sell: Summon a Lvl. 3 Duck and Beaver."
+      }
+    ],
+    "Id": "159",
+    "Name": "Platypus",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt: Deal 6 damage back to the pet that hurt Porcupine."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt: Deal 12 damage back to the pet that hurt Porcupine."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt: Deal 18 damage back to the pet that hurt Porcupine."
+      }
+    ],
+    "Id": "169",
+    "Name": "Porcupine",
+    "Tier": 4,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 7,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Knock out adjacent friends and gain +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Knock out adjacent friends and gain +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Knock out adjacent friends and gain +6/+6."
+      }
+    ],
+    "Id": "126",
+    "Name": "Praying Mantis",
+    "Tier": 4,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon a Chick with 1 Health and half the Attack of this."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon 2 Chicks with 1 Health and half the Attack of this."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon 3 Chicks with 1 Health and half the Attack of this."
+      }
+    ],
+    "Id": "63",
+    "Name": "Rooster",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Reduce the highest Health enemy by 33%."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Reduce the highest Health enemy by 66%."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Reduce the highest Health enemy by 99%."
+      }
+    ],
+    "Id": "70",
+    "Name": "Skunk",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Add 1 shop food and discount them by 1 gold."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Add 1 shop food and discount them by 2 gold."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Add 1 shop food and discount them by 3 gold."
+      }
+    ],
+    "Id": "75",
+    "Name": "Squirrel",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Swallow friend ahead and release it as level 1 after fainting."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Swallow friend ahead and release it as level 2 after fainting."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Swallow friend ahead and release it as level 3 after fainting."
+      }
+    ],
+    "Id": "81",
+    "Name": "Whale",
+    "Tier": 4,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Eats shop food: Gain +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Eats shop food: Gain +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Eats shop food: Gain +3/+3."
+      }
+    ],
+    "Id": "82",
+    "Name": "Worm",
+    "Tier": 4,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy tier 1 pet: Give current and future shop pets +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Buy tier 1 pet: Give current and future shop pets +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Buy tier 1 pet: Give current and future shop pets +3/+3."
+      }
+    ],
+    "Id": "14",
+    "Name": "Chicken",
+    "Tier": 5,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy: Replace food shop with 2 free milk that gives +1/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Buy: Replace food shop with 2 free milk that gives +2/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Buy: Replace food shop with 2 free milk that gives +3/+6."
+      }
+    ],
+    "Id": "15",
+    "Name": "Cow",
+    "Tier": 5,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 8,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 8 damage to the last enemy. Repeat 1 time(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 8 damage to the last enemy. Repeat 2 time(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 8 damage to the last enemy. Repeat 3 time(s)."
+      }
+    ],
+    "Id": "19",
+    "Name": "Crocodile",
+    "Tier": 5,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 6,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon one level 1 tier 6 pet."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon one level 2 tier 6 pet."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon one level 3 tier 6 pet."
+      }
+    ],
+    "Id": "27",
+    "Name": "Eagle",
+    "Tier": 5,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Steal a random shop food."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Steal a random shop food. Health and Attack effects are multiplied by 2."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Steal a random shop food. Health and Attack effects are multiplied by 3."
+      }
+    ],
+    "Id": "106",
+    "Name": "Fox",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy friend: Gain 1 gold. Has 2 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Buy friend: Gain 2 gold. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Buy friend: Gain 3 gold. Has 2 trigger(s)."
+      }
+    ],
+    "Id": "34",
+    "Name": "Goat",
+    "Tier": 5,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Roll: Gain 1 gold. Has 2 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Roll: Gain 1 gold. Has 4 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Roll: Gain 1 gold. Has 6 trigger(s)."
+      }
+    ],
+    "Id": "110",
+    "Name": "Hamster",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Swap Attack and Health of all pets."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Shuffle positions of all pets."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Swap Attack and Health and shuffle positions of all pets."
+      }
+    ],
+    "Id": "167",
+    "Name": "Hyena",
+    "Tier": 5,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 6,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: If this is your highest tier pet, gain +50% Attack and Health."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: If this is your highest tier pet, gain +100% Attack and Health."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: If this is your highest tier pet, gain +150% Attack and Health."
+      }
+    ],
+    "Id": "42",
+    "Name": "Lion",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before friend attack: Make the enemy target Weak. Has 1 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Before friend attack: Make the enemy target Weak. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Before friend attack: Make the enemy target Weak. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "201",
+    "Name": "Lionfish",
+    "Tier": 5,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give right-most friend +2/+3."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give right-most friend +4/+6."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give right-most friend +6/+9."
+      }
+    ],
+    "Id": "46",
+    "Name": "Monkey",
+    "Tier": 5,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give +1/+1 to 1 pet(s) behind. Multiply buff with the lowest pet tier in the shop."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give +1/+1 to 2 pet(s) behind. Multiply buff with the lowest pet tier in the shop."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give +1/+1 to 3 pet(s) behind. Multiply buff with the lowest pet tier in the shop."
+      }
+    ],
+    "Id": "202",
+    "Name": "Moose",
+    "Tier": 5,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Give a random frozen shop pet +3/+3."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Give a random frozen shop pet +6/+6."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Give a random frozen shop pet +9/+9."
+      }
+    ],
+    "Id": "108",
+    "Name": "Polar Bear",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give +1/+1 to a friend of each Tier."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give +2/+2 to a friend of each Tier."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give +3/+3 to a friend of each Tier."
+      }
+    ],
+    "Id": "96",
+    "Name": "Poodle",
+    "Tier": 5,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Knock out: Deal 4 damage to the first enemy. Double against Tier 1 pets."
+      },
+      {
+        "Level": 2,
+        "About": "Knock out: Deal 8 damage to the first enemy. Double against Tier 1 pets."
+      },
+      {
+        "Level": 3,
+        "About": "Knock out: Deal 12 damage to the first enemy. Double against Tier 1 pets."
+      }
+    ],
+    "Id": "55",
+    "Name": "Rhino",
+    "Tier": 5,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Summoned: Gain Peanuts."
+      },
+      {
+        "Level": 2,
+        "About": "Summoned: Gain Peanuts."
+      },
+      {
+        "Level": 3,
+        "About": "Summoned: Gain Peanuts."
+      }
+    ],
+    "Id": "65",
+    "Name": "Scorpion",
+    "Tier": 5,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Eats shop food: Give 2 random friends +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Eats shop food: Give 2 random friends +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Eats shop food: Give 2 random friends +3/+3."
+      }
+    ],
+    "Id": "66",
+    "Name": "Seal",
+    "Tier": 5,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend faints: Gain +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Friend faints: Gain +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Friend faints: Gain +6/+6."
+      }
+    ],
+    "Id": "69",
+    "Name": "Shark",
+    "Tier": 5,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give Strawberry friends +1/+2."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give Strawberry friends +2/+4."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give Strawberry friends +3/+6."
+      }
+    ],
+    "Id": "134",
+    "Name": "Shoebill",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give friends with no held Food +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give friends with no held Food +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give friends with no held Food +3/+3."
+      }
+    ],
+    "Id": "146",
+    "Name": "Siberian Husky",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 100% Attack damage to a most healthy enemy and itself."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 200% Attack damage to a most healthy enemy and itself."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 300% Attack damage to a most healthy enemy and itself."
+      }
+    ],
+    "Id": "119",
+    "Name": "Sword Fish",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt: Give a random friend +3/+3."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt: Give a random friend +6/+6."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt: Give a random friend +9/+9."
+      }
+    ],
+    "Id": "142",
+    "Name": "Triceratops",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend summoned: Give it +2/+3."
+      },
+      {
+        "Level": 2,
+        "About": "Friend summoned: Give it +4/+6."
+      },
+      {
+        "Level": 3,
+        "About": "Friend summoned: Give it +6/+9."
+      }
+    ],
+    "Id": "79",
+    "Name": "Turkey",
+    "Tier": 5,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend faints: Deal 2 damage to a random enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Friend faints: Deal 4 damage to a random enemy."
+      },
+      {
+        "Level": 3,
+        "About": "Friend faints: Deal 6 damage to a random enemy."
+      }
+    ],
+    "Id": "135",
+    "Name": "Vulture",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy & Sell: Give a random friend +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Buy & Sell: Give a random friend +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Buy & Sell: Give a random friend +6/+6."
+      }
+    ],
+    "Id": "155",
+    "Name": "Zebra",
+    "Tier": 5,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 9,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend summoned: Give it +1 Experience. Except other Alpacas. Has 2 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Friend summoned: Give it +2 Experience. Except other Alpacas. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Friend summoned: Give it +3 Experience. Except other Alpacas. Has 2 trigger(s)."
+      }
+    ],
+    "Id": "194",
+    "Name": "Alpaca",
+    "Tier": 6,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 10,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before attack: Gain +4/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Before attack: Gain +8/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Before attack: Gain +12/+6."
+      }
+    ],
+    "Id": "103",
+    "Name": "Boar",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Food with Health and Attack effects are doubled."
+      },
+      {
+        "Level": 2,
+        "About": "Food with Health and Attack effects are tripled."
+      },
+      {
+        "Level": 3,
+        "About": "Food with Health and Attack effects are quadrupled."
+      }
+    ],
+    "Id": "11",
+    "Name": "Cat",
+    "Tier": 6,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 6,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy tier 1 pet: Give other pets +1/+1."
+      },
+      {
+        "Level": 2,
+        "About": "Buy tier 1 pet: Give other pets +2/+2."
+      },
+      {
+        "Level": 3,
+        "About": "Buy tier 1 pet: Give other pets +3/+3."
+      }
+    ],
+    "Id": "25",
+    "Name": "Dragon",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend faints: Summon a 4/4 fly in its place. Has 3 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Friend faints: Summon a 8/8 fly in its place. Has 3 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Friend faints: Summon a 12/12 fly in its place. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "30",
+    "Name": "Fly",
+    "Tier": 6,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 6,
+    "Health": 9,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt: Gain Coconut. Has 1 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt: Gain Coconut. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt: Gain Coconut. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "36",
+    "Name": "Gorilla",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 5,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of turn: Gain 3 gold if there is at least one level 3 friendly pet."
+      },
+      {
+        "Level": 2,
+        "About": "Start of turn: Gain 6 gold if there is at least one level 3 friendly pet."
+      },
+      {
+        "Level": 3,
+        "About": "Start of turn: Gain 9 gold if there is at least one level 3 friendly pet."
+      }
+    ],
+    "Id": "123",
+    "Name": "Hammershark",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 6,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give friends ahead +1/+1 and then shuffle their positions."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give friends ahead +2/+2 and then shuffle their positions."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give friends ahead +3/+3 and then shuffle their positions."
+      }
+    ],
+    "Id": "124",
+    "Name": "Komodo",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 10,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Deal 50% Attack damage to a random enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Deal 50% Attack damage to 2 random enemies."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Deal 50% Attack damage to 3 random enemies."
+      }
+    ],
+    "Id": "41",
+    "Name": "Leopard",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give current and future shop pets +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give current and future shop pets +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give current and future shop pets +6/+6."
+      }
+    ],
+    "Id": "114",
+    "Name": "Lioness",
+    "Tier": 6,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 10,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Give all friends +2/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Give all friends +4/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Give all friends +6/+6."
+      }
+    ],
+    "Id": "45",
+    "Name": "Mammoth",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 8,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before attack: Deal 3 damage to 2 random enemies."
+      },
+      {
+        "Level": 2,
+        "About": "Before attack: Deal 6 damage to 2 random enemies."
+      },
+      {
+        "Level": 3,
+        "About": "Before attack: Deal 9 damage to 2 random enemies."
+      }
+    ],
+    "Id": "50",
+    "Name": "Octopus",
+    "Tier": 6,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon 1 random pet(s) with a <b>Faint</b> ability from any pack."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon 2 random pet(s) with a <b>Faint</b> ability from any pack."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon 3 random pet(s) with a <b>Faint</b> ability from any pack."
+      }
+    ],
+    "Id": "116",
+    "Name": "Orca",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Gain +1/+1 for each tier 5 pet or higher in the shop."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Gain +2/+2 for each tier 5 pet or higher in the shop."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Gain +3/+3 for each tier 5 pet or higher in the shop."
+      }
+    ],
+    "Id": "125",
+    "Name": "Ostrich",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 10,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt & Faint: Give friends +2 Attack."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt & Faint: Give friends +4 Attack."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt & Faint: Give friends +6 Attack."
+      }
+    ],
+    "Id": "118",
+    "Name": "Piranha",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 6,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Before attack: Gain Melon. Has 1 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Before attack: Gain Melon. Has 2 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Before attack: Gain Melon. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "205",
+    "Name": "Reindeer",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 8,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Hurt: Summon a random Tier 1 pet as a 8/8."
+      },
+      {
+        "Level": 2,
+        "About": "Hurt: Summon a random Tier 1 pet as a 16/16."
+      },
+      {
+        "Level": 3,
+        "About": "Hurt: Summon a random Tier 1 pet as a 24/24."
+      }
+    ],
+    "Id": "148",
+    "Name": "Sabertooth Tiger",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 12,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Buy food: Gain 1 gold. Has 3 trigger(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Buy food: Gain 2 gold. Has 3 trigger(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Buy food: Gain 3 gold. Has 3 trigger(s)."
+      }
+    ],
+    "Id": "98",
+    "Name": "Sauropod",
+    "Tier": 6,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 6,
+    "Health": 6,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend ahead attacks: Deal 5 damage to a random enemy."
+      },
+      {
+        "Level": 2,
+        "About": "Friend ahead attacks: Deal 10 damage to a random enemy."
+      },
+      {
+        "Level": 3,
+        "About": "Friend ahead attacks: Deal 15 damage to a random enemy."
+      }
+    ],
+    "Id": "73",
+    "Name": "Snake",
+    "Tier": 6,
+    "Packs": [
+      "Pack1"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Friend faints: Give a random friend +3/+2."
+      },
+      {
+        "Level": 2,
+        "About": "Friend faints: Give a random friend +6/+4."
+      },
+      {
+        "Level": 3,
+        "About": "Friend faints: Give a random friend +9/+6."
+      }
+    ],
+    "Id": "143",
+    "Name": "Spinosaurus",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 8,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: Give friend ahead +1/+1 until end of battle. Multiply buff with turn number."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: Give friend ahead +2/+2 until end of battle. Multiply buff with turn number."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: Give friend ahead +3/+3 until end of battle. Multiply buff with turn number."
+      }
+    ],
+    "Id": "144",
+    "Name": "Stegosaurus",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Summon a Lvl. 1 copy of a random friendly pet. Except other Tapirs."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Summon a Lvl. 2 copy of a random friendly pet. Except other Tapirs."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Summon a Lvl. 3 copy of a random friendly pet. Except other Tapirs."
+      }
+    ],
+    "Id": "208",
+    "Name": "Tapir",
+    "Tier": 6,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "The friend ahead repeats their ability in battle as if they were level 1."
+      },
+      {
+        "Level": 2,
+        "About": "The friend ahead repeats their ability in battle as if they were level 2."
+      },
+      {
+        "Level": 3,
+        "About": "The friend ahead repeats their ability in battle as if they were level 3."
+      }
+    ],
+    "Id": "77",
+    "Name": "Tiger",
+    "Tier": 6,
+    "Packs": [
+      "Pack1",
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 9,
+    "Health": 4,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "End turn: If you have 3 or more gold, give other pets +2/+1."
+      },
+      {
+        "Level": 2,
+        "About": "End turn: If you have 3 or more gold, give other pets +4/+2."
+      },
+      {
+        "Level": 3,
+        "About": "End turn: If you have 3 or more gold, give other pets +6/+3."
+      }
+    ],
+    "Id": "78",
+    "Name": "Tyrannosaurus",
+    "Tier": 6,
+    "Packs": [
+      "Pack2"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Give Coconut to 1 random Strawberry friend(s)."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Give Coconut to 2 random Strawberry friend(s)."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Give Coconut to 3 random Strawberry friend(s)."
+      }
+    ],
+    "Id": "115",
+    "Name": "Velociraptor",
+    "Tier": 6,
+    "Packs": [
+      "Pack3"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 7,
+    "Health": 5,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Faint: Give 1 random friend Peanuts."
+      },
+      {
+        "Level": 2,
+        "About": "Faint: Give 2 random friends Peanuts."
+      },
+      {
+        "Level": 3,
+        "About": "Faint: Give 3 random friends Peanuts."
+      }
+    ],
+    "Id": "209",
+    "Name": "Walrus",
+    "Tier": 6,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "About": "Start of battle: Make 1 friend behind level 3. Except other White Tigers."
+      },
+      {
+        "Level": 2,
+        "About": "Start of battle: Make 2 friends behind level 3. Except other White Tigers."
+      },
+      {
+        "Level": 3,
+        "About": "Start of battle: Make 3 friends behind level 3. Except other White Tigers."
+      }
+    ],
+    "Id": "206",
+    "Name": "White Tiger",
+    "Tier": 6,
+    "Packs": [
+      "Custom"
+    ],
+    "Rollable": true
+  }
+]

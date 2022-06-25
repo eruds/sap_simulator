@@ -1,30 +1,31 @@
-
-from enum import Enum, auto
+import uuid
 from clint.textui import colored, puts
 
 from food import Food, FoodType
-
-
-class PetState(Enum):
-    Standby = auto()
-    Buy = auto()
-    Sell = auto()
-    Summonned = auto()
-    Faint = auto()
-    Eat = auto()
+from states import *
 
 
 class Pet():
-    def __init__(self, id, name: str, attack: int, health: int):
+    def __init__(self,
+                 petid: int,
+                 name: str,
+                 attack: int,
+                 health: int,
+                 tier: int,
+                 packs: list[str],
+                 trigger: Trigger):
         # print("Pet constructor")
         # id, Name, Level, Effect, State, Equipment, health, attack, damage
-        self.id = id
+        self.id = uuid.uuid4()
+        self.petid = petid
         self.name: str = name
         self.level = 1
         # Adjust this according to the shop battle etc
         self.state = PetState.Standby
         self.health = health
         self.attack = attack
+        # Mechanics
+        self.trigger = trigger
     # Info
 
     def __str__(self) -> str:
@@ -34,6 +35,9 @@ class Pet():
     def info(self):
         # print(f"Name : {self.name}, health : {self.health}, attack : {self.attack}")
         print(f"{self.name} | {self.attack} | {self.health}")
+
+    def isFaint(self):
+        return self.state == PetState.Faint
     # Setter and Getters
 
     def takeDamage(self, damage: int):
@@ -42,10 +46,12 @@ class Pet():
         if self.health <= 0:
             self.health = 0
             self.state = PetState.Faint
+            print(colored.red(f"{self} fainted!"))
 
     # Mechanics
-    def activateEffect(self):
-        print("Effect activated")
+    def getBuff(self, attack, health):
+        self.attack += attack
+        self.health += health
 
     def eatFood(self, food: Food):
         if(Food.type == FoodType.Instant):
@@ -54,39 +60,38 @@ class Pet():
         else:
             self.Equipment = food
 
+    def checkTrigger(self):
+        print("Trigger Checked")
+
+    def activateEffect(self):
+        print("Effect activated")
+
 # Hotfix
+# class Duck(Pet):
+#     def __init__(self):
+#         super(Duck, self).__init__(1, "Duck", 2, 3)
 
 
-class EmptyPet(Pet):
-    def __init__(self):
-        super(EmptyPet, self).__init__(0, "Empty", 0, 0)
+# class Ant(Pet):
+#     def __init__(self):
+#         super(Ant, self).__init__(2, "Ant", 2, 1)
 
 
-class Duck(Pet):
-    def __init__(self):
-        super(Duck, self).__init__(1, "Duck", 2, 3)
+# class Beaver(Pet):
+#     def __init__(self):
+#         super(Beaver, self).__init__(3, "Beaver", 3, 2)
 
 
-class Ant(Pet):
-    def __init__(self):
-        super(Ant, self).__init__(2, "Ant", 2, 1)
+# class Cricket(Pet):
+#     def __init__(self):
+#         super(Cricket, self).__init__(4, "Cricket", 1, 2)
 
 
-class Beaver(Pet):
-    def __init__(self):
-        super(Beaver, self).__init__(3, "Beaver", 3, 2)
+# class Fish(Pet):
+#     def __init__(self):
+#         super(Fish, self).__init__(5, "Fish", 2, 2)
 
 
-class Cricket(Pet):
-    def __init__(self):
-        super(Cricket, self).__init__(4, "Cricket", 1, 2)
-
-
-class Fish(Pet):
-    def __init__(self):
-        super(Fish, self).__init__(5, "Fish", 2, 2)
-
-
-class Horse(Pet):
-    def __init__(self):
-        super(Horse, self).__init__(6, "Horse", 2, 1)
+# class Horse(Pet):
+#     def __init__(self):
+#         super(Horse, self).__init__(6, "Horse", 2, 1)

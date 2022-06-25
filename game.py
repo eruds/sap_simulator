@@ -1,31 +1,29 @@
-from enum import Enum, auto 
-
 from player import Player
 from battler import Battler 
 from pet import *
 from database import Database
 
-class GameStatus(Enum) :
-    Initiated = auto()
-    Playing = auto()
-    Ended = auto()
+from states import * 
+
 
 
 class Game():
     def __init__(self) :
         print("Game Initiated")
-        self.status = GameStatus.Initiated
+        self.status = GameState.Initiated
         self.players = [Player(1), Player(2)]
-    # def test(self) :
-    #     self.something = "Things"
     def test(self) :
+        # Used to test the system. Currently testing the battler
+        # Give players random starting animals 
         for player in self.players :
             for i in range(3) :
                 player.addPet(Database.getRandomAnimal(), i)
+    def playerTurn(self) :
+        # Try multithreading 
+        print("Player doing their turn")
     def play(self) :
         self.test()
-        # print(self.something)
-        self.status = GameStatus.Playing
+        self.status = GameState.Playing
         result = Battler.battle(self.players)
         print(result)
         if(result[0] == result[1]) : 
