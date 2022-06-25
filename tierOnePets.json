@@ -1,0 +1,397 @@
+[
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Faint",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "2/1"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Faint",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "4/2"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Faint",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "Buff": "6/3"
+      }
+    ],
+    "Id": "0",
+    "Name": "Ant",
+    "Tier": 1,
+    "Packs": ["Pack1", "Pack2"],
+    "Rollable": true
+  },
+  {
+    "Attack": 3,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Sell",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 2,
+        "Buff": "0/1"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Sell",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 2,
+        "Buff": "0/2"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Sell",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 2,
+        "Buff": "0/3"
+      }
+    ],
+    "Id": "3",
+    "Name": "Beaver",
+    "Tier": 1,
+    "Packs": ["Pack1", "Pack2"],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Faint",
+        "Type": "Summon",
+        "Summon": "Zombie Cricket",
+        "GiveType": "-",
+        "Target": "-",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "1/1"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Faint",
+        "Type": "Summon",
+        "Summon": "Zombie Cricket",
+        "GiveType": "-",
+        "Target": "-",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "2/2"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Faint",
+        "Type": "Summon",
+        "Summon": "Zombie Cricket",
+        "GiveType": "-",
+        "Target": "-",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "3/3"
+      }
+    ],
+    "Id": "17",
+    "Name": "Cricket",
+    "Tier": 1,
+    "Packs": ["Pack1", "Pack2"],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 3,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Sell",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "All",
+        "TargetType": "Shop Pet",
+        "TargetCount": 5,
+        "Buff": "0/1"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Sell",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "All",
+        "TargetType": "Shop Pet",
+        "TargetCount": 5,
+        "Buff": "0/2"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Sell",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "All",
+        "TargetType": "Shop Pet",
+        "TargetCount": 5,
+        "Buff": "0/3"
+      }
+    ],
+    "Id": "26",
+    "Name": "Duck",
+    "Tier": 1,
+    "Packs": ["Pack1"],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Level-up",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "All",
+        "TargetType": "Friend",
+        "TargetCount": 4,
+        "Buff": "1/1"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Level-up",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "All",
+        "TargetType": "Friend",
+        "TargetCount": 4,
+        "Buff": "2/2"
+      },
+      {
+        "Level": 3,
+        "Trigger": "-",
+        "Type": "No Effect",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "All",
+        "TargetType": "Friend",
+        "TargetCount": 0,
+        "Buff": "0/0"
+      }
+    ],
+    "Id": "32",
+    "Name": "Fish",
+    "Tier": 1,
+    "Packs": ["Pack1", "Pack2"],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Summon",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Temp",
+        "Target": "Fixed",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "1/0"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Summon",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Temp",
+        "Target": "Fixed",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "2/0"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Summon",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Temp",
+        "Target": "Fixed",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "3/0"
+      }
+    ],
+    "Id": "39",
+    "Name": "Horse",
+    "Tier": 1,
+    "Packs": ["Pack1"],
+    "Rollable": true
+  },
+  {
+    "Attack": 2,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Start of Battle",
+        "Type": "Deal",
+        "Summon": "-",
+        "GiveType": "Temp",
+        "Target": "Random",
+        "TargetType": "Enemy",
+        "TargetCount": 1,
+        "Buff": "0/1"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Start of Battle",
+        "Type": "Deal",
+        "Summon": "-",
+        "GiveType": "Temp",
+        "Target": "Random",
+        "TargetType": "Enemy",
+        "TargetCount": 2,
+        "Buff": "0/1"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Start of Battle",
+        "Type": "Deal",
+        "Summon": "-",
+        "GiveType": "Temp",
+        "Target": "Random",
+        "TargetType": "Enemy",
+        "TargetCount": 3,
+        "Buff": "0/1"
+      }
+    ],
+    "Id": "47",
+    "Name": "Mosquito",
+    "Tier": 1,
+    "Packs": ["Pack1", "Pack2"],
+    "Rollable": true
+  },
+  {
+    "Attack": 1,
+    "Health": 2,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Buy",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 1,
+        "Buff": "1/1"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Buy",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 2,
+        "Buff": "1/1"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Buy",
+        "Type": "Give",
+        "Summon": "-",
+        "GiveType": "Perm",
+        "Target": "Random",
+        "TargetType": "Friend",
+        "TargetCount": 3,
+        "Buff": "1/1"
+      }
+    ],
+    "Id": "51",
+    "Name": "Otter",
+    "Tier": 1,
+    "Packs": ["Pack1"],
+    "Rollable": true
+  },
+  {
+    "Attack": 4,
+    "Health": 1,
+    "Abilities": [
+      {
+        "Level": 1,
+        "Trigger": "Sell",
+        "Type": "Gain",
+        "Summon": "-",
+        "GiveType": "-",
+        "Target": "Fixed",
+        "TargetType": "Player",
+        "TargetCount": 0,
+        "Buff": "1/$"
+      },
+      {
+        "Level": 2,
+        "Trigger": "Sell",
+        "Type": "Gain",
+        "Summon": "-",
+        "GiveType": "-",
+        "Target": "Fixed",
+        "TargetType": "Player",
+        "TargetCount": 0,
+        "Buff": "2/$"
+      },
+      {
+        "Level": 3,
+        "Trigger": "Sell",
+        "Type": "Gain",
+        "Summon": "-",
+        "GiveType": "-",
+        "Target": "Fixed",
+        "TargetType": "Player",
+        "TargetCount": 0,
+        "Buff": "3/$"
+      }
+    ],
+    "Id": "59",
+    "Name": "Pig",
+    "Tier": 1,
+    "Packs": ["Pack1", "Pack2"],
+    "Rollable": true
+  }
+]

@@ -26,7 +26,15 @@ class Pet():
         self.attack = attack
         # Mechanics
         self.trigger = trigger
+        # Set trigger based on petid
+        # self.__setTrigger()
     # Info
+
+    def __setTrigger(self):
+        if self.petid == 0:
+            self.trigger = Trigger.Faint
+        if self.petid == 1:
+            self.trigger = Trigger.Sell
 
     def __str__(self) -> str:
         # return f"Name : {self.name}, Level : {self.level}, Attack : {self.attack}, health : {self.health}"
@@ -60,7 +68,11 @@ class Pet():
         else:
             self.Equipment = food
 
-    def checkTrigger(self):
+    def checkTrigger(self, externalTrigger=None):
+        if(not externalTrigger):
+            print(self.state == self.trigger)
+        else:
+            print(externalTrigger == self.trigger)
         print("Trigger Checked")
 
     def activateEffect(self):
