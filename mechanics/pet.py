@@ -1,8 +1,8 @@
 import uuid
 from clint.textui import colored, puts
 
-from food import Food, FoodType
-from states import *
+from mechanics.food import Food, FoodType
+from mechanics.states import *
 
 
 class Pet():

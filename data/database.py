@@ -1,8 +1,9 @@
-from pet import *
-from food import *
-from states import *
+from mechanics.pet import *
+from mechanics.food import *
+from mechanics.states import *
 import random
 import json
+from os import path
 
 
 class Database():
@@ -10,7 +11,11 @@ class Database():
     def getRandomAnimal():
         # animalsDB = json.load(open("18.0_pets.json"))
         # Only tier ones for pack 1 for testing
-        animalsDB = json.load(open("tierOnePets.json"))
+        def openFile(filename):
+            basepath = path.dirname(__file__)
+            filepath = path.abspath(path.join(basepath, filename))
+            return open(filepath)
+        animalsDB = json.load(openFile("./tierOnePets.json"))
 
         # Filter Tier One
         # animalsDB = list(

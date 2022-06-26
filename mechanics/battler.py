@@ -1,9 +1,9 @@
 # from colorama import Fore
 from clint.textui import colored, puts
 
-from states import *
-from player import Player
-from pet import *
+from mechanics.states import *
+from mechanics.player import Player
+from mechanics.pet import *
 
 # Pets is copied into the battle stack
 
@@ -70,6 +70,7 @@ class Battler():
             print(colored.blue(f"After : {pet1} vs {pet2}"))
 
             # Check if pet Faints
+            # Change this to an observer
             # Check pet effects
             if pet1.isFaint():
                 player1.pop()
