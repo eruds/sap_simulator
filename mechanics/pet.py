@@ -1,6 +1,8 @@
 import uuid
 from clint.textui import colored, puts
 
+
+from mechanics.states import BattleState, PetState as Trigger
 from mechanics.food import Food, FoodType
 from mechanics.states import *
 
@@ -20,23 +22,17 @@ class Pet():
         self.petid = petid
         self.name: str = name
         self.level = 1
-        # Adjust this according to the shop battle etc
         self.state = PetState.Standby
         self.health = health
         self.attack = attack
+        self.tier = tier
+
         # Mechanics
         self.trigger = trigger
         # Set trigger based on petid
         # self.__setTrigger()
 
     # Info
-
-    def __setTrigger(self):
-        if self.petid == 0:
-            self.trigger = Trigger.Faint
-        if self.petid == 1:
-            self.trigger = Trigger.Sell
-
     def __str__(self) -> str:
         # return f"Name : {self.name}, Level : {self.level}, Attack : {self.attack}, health : {self.health}"
         return f"{self.name} | {self.level} | {self.attack} | {self.health}"
@@ -54,7 +50,7 @@ class Pet():
         self.health -= damage
         if self.health <= 0:
             self.health = 0
-            self.state = PetState.Faint
+            self.state = PetState.Faint  # Should be PetState.Faint. Try to find a workaround
             self.notify()
             print(colored.red(f"{self} fainted!"))
 
@@ -77,24 +73,25 @@ class Pet():
         print(f"{self.id} informant set")
 
     def update(self, events: dict[str, Trigger]):
+        # ? events dict[id: str, state : trigger]
         # self.checkTrigger()
-        print(f"{self.id} Updated")
+        # print(f"{self.id} Updated")
         self.checkTrigger(events)
 
     def notify(self):
         # ! Test with Faint
-        print(f"{self.id} State Change")
+        # print(f"{self.id} State Change")
         self.__informant(self.id, self.state)
 
-    def checkTrigger(self, externalTrigger=None):
-        if(not externalTrigger):
-            print(self.state == self.trigger)
-        else:
-            print(externalTrigger == self.trigger)
-        print("Trigger Checked")
+    def checkTrigger(self, events: dict[str, Trigger]):
+        for id, event in events.items():
+            # print(id, event)
+            # print(event, self.trigger)
+            if(event == self.trigger):
+                self.activateEffect()
 
     def activateEffect(self):
-        print("Effect activated")
+        print(f"{self.id} {self.name} Effect activated")
 
 # Hotfix
 # class Duck(Pet):

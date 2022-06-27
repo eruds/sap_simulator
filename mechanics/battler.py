@@ -2,7 +2,8 @@
 import uuid
 from clint.textui import colored, puts
 
-from mechanics.states import *
+from mechanics.states import BattleState, PetState as Trigger
+from mechanics.states import BattleResult
 from mechanics.player import Player
 from mechanics.pet import Pet
 
@@ -36,11 +37,11 @@ class BattleSystem():
     #
     def __init__(self):
         self.__id = uuid.uuid4()
-        self.__state = BattleState.STANDBY
+        self.__state: Trigger = BattleState.STANDBY
         # Store the player pets. Turn the player pets into a battleStack.
         self.__playerPets = {}
         # Store the different events happening in a batlle. Reset before the next attack
-        self.__events = []
+        self.__events: dict = {}
 
     def addPlayer(self, player):
         playerPets = BattleStack(player.pets)
@@ -55,7 +56,7 @@ class BattleSystem():
 
     # Broadcast system
     def clearEvents(self):
-        self.__events = []
+        self.__events.clear()
 
     def getState(self):
         return self.__state
@@ -65,13 +66,14 @@ class BattleSystem():
             # ? Does this work
             self.__state = state
             # Notify other pets about the battle state change.
-            self.__events.append(self.__state)
+            self.__events[id] = self.__state
             self.__notify(self.__id)
 
     def __sendMessage(self, id: str, state: Trigger):
+        # Idk why it worked this is a private method
         # ? Do I need to check whether the function is being triggered by the pets
         # if(id not in self.__playerPets.)
-        self.__events.append({id, state})
+        self.__events[id] = state
         # Notify other pets about the change
         self.__notify(id)
 

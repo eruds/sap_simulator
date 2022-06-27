@@ -33,33 +33,26 @@ class PetState(Enum):
     Hurt = auto()
     Attack = auto()
     Faint = auto()
+    LevelUp = auto()
+
 
 # Hotfix
+# TRIGGER = NewType("Trigger", Union[BattleState, PetState, BattleResult])
+# class Trigger(Enum):
+#     Standby = auto()
+#     Buy = auto()
+#     Sell = auto()
+#     Eat = auto()
+#     Summonned = auto()
+#     LevelUp = auto()
+#     Hurt = auto()
+#     Attack = auto()
+#     # Deal = auto()
+#     Faint = auto()
+#     BATTLESTART = auto()
+#     BATTLEEND = auto()
+#     TURNSTART = auto()
+#     TURNEND = auto()
 
 
-class Trigger(Enum):
-    Standby = auto()
-    Buy = auto()
-    Sell = auto()
-    Eat = auto()
-    Summonned = auto()
-    LevelUp = auto()
-    Hurt = auto()
-    Attack = auto()
-    # Deal = auto()
-    Faint = auto()
-    BATTLESTART = auto()
-    BATTLEEND = auto()
-    TURNSTART = auto()
-    TURNEND = auto()
-
-    @staticmethod
-    def getTrigger(type):
-        if(type == "Faint"):
-            return Trigger.Faint
-        elif(type == "Sell"):
-            return Trigger.Sell
-        elif(type == "Level-up"):
-            return Trigger.LevelUp
-        # elif(type == "Summon"):
-        #     retutn self
+# TRIGGER: TypeAlias = Union[PetState, BattleState]

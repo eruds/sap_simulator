@@ -8,6 +8,17 @@ from os import path
 
 class Database():
     @staticmethod
+    def getTrigger(type):
+        if(type == "Faint"):
+            return PetState.Faint
+        elif(type == "Sell"):
+            return PetState.Sell
+        elif(type == "Level-up"):
+            return PetState.LevelUp
+        # elif(type == "Summon"):
+        #     retutn self
+
+    @staticmethod
     def getRandomAnimal():
         # animalsDB = json.load(open("18.0_pets.json"))
         # Only tier ones for pack 1 for testing
@@ -23,10 +34,10 @@ class Database():
 
         # Only Faints
         # print(animalsDB)
-        animalsDB = list(filter(
-            lambda pet: pet["Abilities"][0]["Trigger"] == "Faint",
-            animalsDB
-        ))
+        # animalsDB = list(filter(
+        #     lambda pet: pet["Abilities"][0]["Trigger"] == "Faint",
+        #     animalsDB
+        # ))
 
         # for pet in animalsDB:
         # print(pet["Abilities"][0]["Trigger"] == "Faint")
@@ -40,5 +51,5 @@ class Database():
             randAnimal["Health"],
             randAnimal["Tier"],
             randAnimal["Packs"],
-            Trigger.getTrigger(randAnimal["Abilities"][0]["Trigger"])
+            Database.getTrigger(randAnimal["Abilities"][0]["Trigger"])
         )
