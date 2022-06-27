@@ -28,6 +28,7 @@ class Pet():
         self.trigger = trigger
         # Set trigger based on petid
         # self.__setTrigger()
+
     # Info
 
     def __setTrigger(self):
@@ -46,14 +47,15 @@ class Pet():
 
     def isFaint(self):
         return self.state == PetState.Faint
-    # Setter and Getters
 
+    # Setter and Getters
     def takeDamage(self, damage: int):
         print(colored.red(f"{self} took {damage} damage"))
         self.health -= damage
         if self.health <= 0:
             self.health = 0
             self.state = PetState.Faint
+            self.notify()
             print(colored.red(f"{self} fainted!"))
 
     # Mechanics
@@ -67,6 +69,22 @@ class Pet():
             self.health += food.health
         else:
             self.Equipment = food
+
+    # ! Update to check trigger
+    # @property
+    def setInformant(self, informant):
+        self.__informant = informant
+        print(f"{self.id} informant set")
+
+    def update(self, events: dict[str, Trigger]):
+        # self.checkTrigger()
+        print(f"{self.id} Updated")
+        self.checkTrigger(events)
+
+    def notify(self):
+        # ! Test with Faint
+        print(f"{self.id} State Change")
+        self.__informant(self.id, self.state)
 
     def checkTrigger(self, externalTrigger=None):
         if(not externalTrigger):

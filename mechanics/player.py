@@ -1,12 +1,14 @@
+import uuid
+
 from mechanics.pet import *
 
 
 class Player():
-    def __init__(self, id):
+    def __init__(self):
         maxPet: int = 5
         # id, Health, Wins, Gold Owned, Turn, Pets Owned
         print("Player constructor")
-        self.id = id
+        self.id = uuid.uuid4()
         self.pets = [None for x in range(maxPet)]
     # Get Player Choice
     # Available choices :

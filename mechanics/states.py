@@ -19,6 +19,7 @@ class BattleResult(Enum):
 
 
 class BattleState(Enum):
+    STANDBY = auto()
     BATTLESTART = auto()
     BATTLEEND = auto()
 
